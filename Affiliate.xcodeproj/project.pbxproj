@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF00000000000000000000C1 /* AffiliateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF00000000000000000000B1 /* AffiliateApp.swift */; };
+		AF00000000000000000000C2 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF00000000000000000000B2 /* RootView.swift */; };
+		AF00000000000000000000C3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF00000000000000000000B3 /* HomeView.swift */; };
+		AF00000000000000000000C4 /* URLCheckerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF00000000000000000000B4 /* URLCheckerView.swift */; };
+		AF00000000000000000000C5 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF00000000000000000000B5 /* GameView.swift */; };
+		AF00000000000000000000C6 /* LiveWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF00000000000000000000B6 /* LiveWebView.swift */; };
+		AF00000000000000000000C7 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF00000000000000000000B7 /* ProfileView.swift */; };
+		AF00000000000000000000C8 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF00000000000000000000B8 /* Theme.swift */; };
+		AF00000000000000000000C9 /* AppModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF00000000000000000000B9 /* AppModels.swift */; };
+		AF00000000000000000000CA /* AffiliateConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF00000000000000000000BA /* AffiliateConfig.swift */; };
+		AF00000000000000000000CB /* URLCheckerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF00000000000000000000BB /* URLCheckerService.swift */; };
+		AF00000000000000000000CC /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF00000000000000000000BC /* HistoryStore.swift */; };
+		AF00000000000000000000CD /* ChickenGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF00000000000000000000BD /* ChickenGame.swift */; };
+		AF00000000000000000000CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF00000000000000000000BE /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF00000000000000000000A1 /* Affiliate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Affiliate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF00000000000000000000B1 /* AffiliateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffiliateApp.swift; sourceTree = "<group>"; };
+		AF00000000000000000000B2 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		AF00000000000000000000B3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AF00000000000000000000B4 /* URLCheckerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLCheckerView.swift; sourceTree = "<group>"; };
+		AF00000000000000000000B5 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		AF00000000000000000000B6 /* LiveWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveWebView.swift; sourceTree = "<group>"; };
+		AF00000000000000000000B7 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		AF00000000000000000000B8 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		AF00000000000000000000B9 /* AppModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModels.swift; sourceTree = "<group>"; };
+		AF00000000000000000000BA /* AffiliateConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffiliateConfig.swift; sourceTree = "<group>"; };
+		AF00000000000000000000BB /* URLCheckerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLCheckerService.swift; sourceTree = "<group>"; };
+		AF00000000000000000000BC /* HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStore.swift; sourceTree = "<group>"; };
+		AF00000000000000000000BD /* ChickenGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenGame.swift; sourceTree = "<group>"; };
+		AF00000000000000000000BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF00000000000000000000BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF00000000000000000000E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF00000000000000000000D1 = {
+			isa = PBXGroup;
+			children = (
+				AF00000000000000000000D3 /* Affiliate */,
+				AF00000000000000000000D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF00000000000000000000D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF00000000000000000000A1 /* Affiliate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF00000000000000000000D3 /* Affiliate */ = {
+			isa = PBXGroup;
+			children = (
+				AF00000000000000000000B1 /* AffiliateApp.swift */,
+				AF00000000000000000000D8 /* Views */,
+				AF00000000000000000000D4 /* Theme */,
+				AF00000000000000000000D5 /* Models */,
+				AF00000000000000000000D6 /* Services */,
+				AF00000000000000000000D7 /* Game */,
+				AF00000000000000000000BE /* Assets.xcassets */,
+				AF00000000000000000000BF /* Info.plist */,
+			);
+			path = Affiliate;
+			sourceTree = "<group>";
+		};
+		AF00000000000000000000D4 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				AF00000000000000000000B8 /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		AF00000000000000000000D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AF00000000000000000000B9 /* AppModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AF00000000000000000000D6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AF00000000000000000000BA /* AffiliateConfig.swift */,
+				AF00000000000000000000BB /* URLCheckerService.swift */,
+				AF00000000000000000000BC /* HistoryStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AF00000000000000000000D7 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				AF00000000000000000000BD /* ChickenGame.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		AF00000000000000000000D8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF00000000000000000000B2 /* RootView.swift */,
+				AF00000000000000000000B3 /* HomeView.swift */,
+				AF00000000000000000000B4 /* URLCheckerView.swift */,
+				AF00000000000000000000B5 /* GameView.swift */,
+				AF00000000000000000000B6 /* LiveWebView.swift */,
+				AF00000000000000000000B7 /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF00000000000000000000F1 /* Affiliate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF00000000000000000000F4 /* Build configuration list for PBXNativeTarget "Affiliate" */;
+			buildPhases = (
+				AF00000000000000000000E1 /* Sources */,
+				AF00000000000000000000E2 /* Frameworks */,
+				AF00000000000000000000E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Affiliate;
+			productName = Affiliate;
+			productReference = AF00000000000000000000A1 /* Affiliate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF00000000000000000000F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AF00000000000000000000F1 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AF00000000000000000000F3 /* Build configuration list for PBXProject "Affiliate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF00000000000000000000D1;
+			productRefGroup = AF00000000000000000000D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF00000000000000000000F1 /* Affiliate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF00000000000000000000E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF00000000000000000000CE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF00000000000000000000E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF00000000000000000000C1 /* AffiliateApp.swift in Sources */,
+				AF00000000000000000000C2 /* RootView.swift in Sources */,
+				AF00000000000000000000C3 /* HomeView.swift in Sources */,
+				AF00000000000000000000C4 /* URLCheckerView.swift in Sources */,
+				AF00000000000000000000C5 /* GameView.swift in Sources */,
+				AF00000000000000000000C6 /* LiveWebView.swift in Sources */,
+				AF00000000000000000000C7 /* ProfileView.swift in Sources */,
+				AF00000000000000000000C8 /* Theme.swift in Sources */,
+				AF00000000000000000000C9 /* AppModels.swift in Sources */,
+				AF00000000000000000000CA /* AffiliateConfig.swift in Sources */,
+				AF00000000000000000000CB /* URLCheckerService.swift in Sources */,
+				AF00000000000000000000CC /* HistoryStore.swift in Sources */,
+				AF00000000000000000000CD /* ChickenGame.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AF00000000000000000000F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF00000000000000000000F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF00000000000000000000F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Affiliate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mystake.affiliate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF00000000000000000000F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Affiliate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mystake.affiliate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF00000000000000000000F3 /* Build configuration list for PBXProject "Affiliate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF00000000000000000000F5 /* Debug */,
+				AF00000000000000000000F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF00000000000000000000F4 /* Build configuration list for PBXNativeTarget "Affiliate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF00000000000000000000F7 /* Debug */,
+				AF00000000000000000000F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF00000000000000000000F2 /* Project object */;
+}
