@@ -42,6 +42,26 @@ extension Color {
     static let brandDivider = Color.white.opacity(0.08)
 }
 
+// MARK: - ShapeStyle support
+//
+// SwiftUI resolves leading-dot color names (e.g. `.foregroundStyle(.brandText)`)
+// against `ShapeStyle`, not `Color`. Mirroring the palette on ShapeStyle lets
+// every brand color be used directly as a foreground/background style.
+
+extension ShapeStyle where Self == Color {
+    static var brandBackground: Color { Color.brandBackground }
+    static var brandSurface: Color { Color.brandSurface }
+    static var brandSurfaceElevated: Color { Color.brandSurfaceElevated }
+    static var brandGreen: Color { Color.brandGreen }
+    static var brandGreenDark: Color { Color.brandGreenDark }
+    static var brandGold: Color { Color.brandGold }
+    static var brandGoldSoft: Color { Color.brandGoldSoft }
+    static var brandText: Color { Color.brandText }
+    static var brandTextSecondary: Color { Color.brandTextSecondary }
+    static var brandDanger: Color { Color.brandDanger }
+    static var brandDivider: Color { Color.brandDivider }
+}
+
 // MARK: - Gradients
 
 extension LinearGradient {
