@@ -84,7 +84,7 @@ xcodebuild -project Affiliate.xcodeproj -scheme Affiliate \
 
 The `bitrise.yml` at the repo root defines a `build_ipa` workflow that:
 
-1. Clones the repo (`git-clone@8`)
+1. Clones the repo over **HTTPS** (`git-clone@8` with an explicit `repository_url` input)
 2. Archives the **Affiliate** scheme with code signing disabled
 3. Packages the `.app` into an unsigned `Affiliate.ipa`
 4. Uploads it to Bitrise (`deploy-to-bitrise-io@2`)

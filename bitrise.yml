@@ -13,7 +13,9 @@ app:
 workflows:
   build_ipa:
     steps:
-    - git-clone@8: {}
+    - git-clone@8:
+        inputs:
+        - repository_url: https://github.com/mohamedannati/affiliate.git
     - script@1:
         title: Build unsigned IPA
         inputs:
